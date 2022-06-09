@@ -1,0 +1,5 @@
+; SPDX-FileCopyrightText: 2022 Alexander Dahl <post@lespocky.de>
+; SPDX-License-Identifier: 0BSD
+[submodule "glowing-tribble"]
+	path = glowing-tribble
+	url = https://github.com/LeSpocky/glowing-tribble.git

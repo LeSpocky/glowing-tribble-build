@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2022 Alexander Dahl <post@lespocky.de>
+# SPDX-License-Identifier: 0BSD
+test -z "$LDFLAGS" && LDFLAGS=-L@PROJECT_BINARY_DIR@/sysroot-prefix/lib
+test -z "$CPPFLAGS" && CPPFLAGS=-I@PROJECT_BINARY_DIR@/sysroot-prefix/include
+test -z "$CC" && CC=@CMAKE_C_COMPILER@
+test -z "$CFLAGS" && CFLAGS='@CFLAGS@'
+test -z "$CXX" && CXX=@CMAKE_CXX_COMPILER@
+test -z "$CXXFLAGS" && CXXFLAGS='@CXXFLAGS@'
